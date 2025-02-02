@@ -1,7 +1,6 @@
 import requests
 import threading
 from colorama import Fore, Style, init
-
 init(autoreset=True)
 def get_location(ip):
     url = f"https://api.iplocation.net/?ip={ip}"
